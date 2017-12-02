@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans')
+    link(rel='stylesheet', href='/css/style.css')   
+    script(src='//code.jquery.com/jquery-1.11.0.min.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='/js/index.js')
+    title Chatroom
+  body
+    h1 Live ChatRoom
+    div(style="color: red")
+      div.inlineBlock
+        span Your name:
+          input(type="text", value=" ")#name
+        br
+        form#messageForm
+          textarea(rows="4", cols="50", placeholder="Say something and press enter", maxlength=200)#outgoingMessage
+          br
+          input(type="button", value="SEND", disabled=true)#send
+      div.inlineBlock.topAligned
+        b Participants
+        br
+        div#participants
+    div#messages
