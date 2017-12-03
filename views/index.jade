@@ -9,18 +9,18 @@ html
     script(src='/js/index.js')
     title Chatroom
   body
-    h1 Live ChatRoom
-    div(style="color: red")
+    h1(style="color: red; text-align: center") Live ChatRoom
+    div(style="color: red;")
       div.inlineBlock
         span Your name:
-          input(type="text", value=" ")#name
+          input(type="text", value=" ", style="background-color: blue; color: orange; width: 300px; height:40px; font-size: 35px")#name
         br
         form#messageForm
-          textarea(rows="4", cols="50", placeholder="Say something and press enter", maxlength=200)#outgoingMessage
+          textarea(rows="7", cols="60", placeholder="Say something and press enter(maximum 300 characters)",maxlength=300, style ="background-color: black;color: yellow; font-size: 20px")#outgoingMessage
           br
-          input(type="button", value="SEND", disabled=true)#send
+          input(type="button", value="SEND", disabled=true, style="backround-color: purple; color:black; ")#send
       div.inlineBlock.topAligned
         b Participants
         br
-        div#participants
-    div#messages
+        div(style = "color: gold")#participants
+    div(style = "color: Yellow")#messages
