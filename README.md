@@ -2,7 +2,7 @@
 
 **Instructions for running the chat room-**
 
-*I am assuming you alread have node.js installed on your comp. If not go to https://nodejs.org/en/download and download it for your comp.*
+*I am assuming you alread have node.js installed on your comp. If not go to [This site](https://nodejs.org/en/download) and download it for your comp.*
 
 *Also you should have npm installed.
 
@@ -17,5 +17,4 @@
 
 *You can do the same thing from a different device like your phone or tablet to access the server (Make sure the device and the   machine on which you are running the server are connected to the same network)
 
-**And it's done! You now have a live chatroom on your WiFi or LAN.All devices connected to this network have acess to it
- 
+**And it's done! You now have a live chatroom on your WiFi or LAN.All devices connected to this network have acess to it** 
